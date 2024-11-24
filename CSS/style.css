@@ -1,0 +1,5 @@
+/* Import from Google Fonts "nunito" select light 300, regular 400 and semi-bold 600" */
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,600;1,600&family=Sofia&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+*{
+    font-family:Nunito;
+}
