@@ -11,3 +11,21 @@
     text-transform: capitalize;
     transition: all .2s linear;
 }
+:root{
+    --green:#27ae60;
+    --blue:#0a2df3;
+}
+html {
+    font-size: 65.2%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar {
+    width: .7rem;
+}
+html::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+html::-webkit-scrollbar-thumb{
+    background: ;
+}
