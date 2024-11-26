@@ -52,4 +52,9 @@ header .navbar a{
     font-size: 2rem;
     color: #222;
 }
-
+header .navbar a:hover{
+    color:var(--green);
+}
+#menu-bars{
+    position: fixed;
+}
