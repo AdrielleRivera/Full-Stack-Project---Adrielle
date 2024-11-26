@@ -64,4 +64,31 @@ header .navbar a:hover{
     border-radius:.5rem;
     color:#fff;
     background: var(--green);
+    cursor: pointer;
+    font-size: 3rem;
+    display: none;
+}
+
+
+/*media queries*/
+@media (max-width:991px) {
+    html{
+        font-size: 55%;
+    }
+    body{
+        padding-right: 0;
+    }
+    header{
+        width:100%;
+    }
+    #menu-bars{
+        display: initial;
+    }
+    header .navbar {
+writing-mode: horizontal-tb;
+    }
+    header .navbar a{
+        display: block;
+        font-size: 2rem;
+    }
 }
