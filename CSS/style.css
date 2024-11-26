@@ -29,3 +29,27 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb{
     background: ;
 }
+body{
+    background: #eee;
+    padding-right: 5rem;
+}
+header{
+    position:fixed;
+    top: 0;
+    right: 0;
+    min-height: 100vh;/*viewport height*/
+    display: inline-flex;
+    align-items: center;
+    background: #ffffff;
+    z-index: 1000;
+}
+header .navbar{
+    writing-mode: vertical-lr;
+    padding: 1.5rem;
+}
+header .navbar a{
+    padding: 1.5rem;
+    font-size: 2rem;
+    color: #222;
+}
+
