@@ -60,4 +60,8 @@ header .navbar a:hover{
     z-index: 2000;
     top: 1rem;
     left: 1rem;
+    padding: 1rem 1.5rem;
+    border-radius:.5rem;
+    color:#fff;
+    background: var(--green);
 }
