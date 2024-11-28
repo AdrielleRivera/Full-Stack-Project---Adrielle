@@ -27,7 +27,23 @@
         <a href="#home">Blogs</a>
         <a href="#home">Contact</a>
 
-     </nav>
-    </header>
+                </nav>
+            </header>
+            <!-- Home Section -->
+             <section>
+                <img src="images/home-pic1.jpg" alt="picture of AI man"> 
+             </section>
+
+
+        <script>
+            let menu = document.querySelector('#menu-bars');
+            let header = document.querySelector('header');
+            
+            menu.onclick = () => {
+                menu.classList.toggle('fa-times');
+                header.classList.toggle('active');
+            }
+
+        </script>
 </body>
 </html>
