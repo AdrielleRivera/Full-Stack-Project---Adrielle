@@ -79,6 +79,22 @@ section{
     border:1rem solid var(--orange);
 }
 
+.home .content h3{
+    font-size: 4rem;
+    color:#222;
+    text-transform: uppercase;
+}
+.home .content h3 span{
+    color:var(--orange);
+    text-transform:uppercase;
+}
+.home .content p{
+    color:#222;
+    font-size: 2.5rem;
+    line-height: 2;
+}
+
+
 #menu-bars{
     position: fixed;
     z-index: 2000;
