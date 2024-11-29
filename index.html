@@ -1,53 +1,53 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="XU-A-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title>Full Stack - Adrielle Rivera</title>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="XU-A-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Full Stack - Adrielle Rivera</title>
 
-    
-    <!-- Go to cdnjs.com, copy the link of font awesome and paste it here. -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-
-    </head>
-
-<body>
         
-    <!-- Header Section --> 
-     <header>
-        <!-- burger bar -->
-        <div id="menu-bars" class="fas fa-bars"></div>
-     <nav class="navbar">
-        <a href="#home">Home</a>
-        <a href="#home">About</a>
-        <a href="#home">Services</a>
-        <a href="#home">Portfolio</a>
-        <a href="#home">Blogs</a>
-        <a href="#home">Contact</a>
+        <!-- Go to cdnjs.com, copy the link of font awesome and paste it here. -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
 
-                </nav>
-            </header>
-    <!-- Home Section -->
-        <section class="home" id="home">
-            <div class="content">
-            <img src="images/home-pic1.jpg" alt="picture of AI man"> 
-            <h3>Adrielle Rivera</h3>
-            <p>I am a Full Stack Web Developer</p>
-            </div>
-        </section>
+        </head>
 
-
-        <script>
-            let menu = document.querySelector('#menu-bars');
-            let header = document.querySelector('header');
+    <body>
             
-            menu.onclick = () => {
-                menu.classList.toggle('fa-times');
-                header.classList.toggle('active');
-            }
+        <!-- Header Section --> 
+        <header>
+            <!-- burger bar -->
+            <div id="menu-bars" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#home">About</a>
+            <a href="#home">Services</a>
+            <a href="#home">Portfolio</a>
+            <a href="#home">Blogs</a>
+            <a href="#home">Contact</a>
 
-        </script>
-</body>
-</html>
+                    </nav>
+                </header>
+        <!-- Home Section -->
+            <section class="home" id="home">
+                <div class="content">
+                <img src="images/home-pic1.jpg" alt="picture of AI man"> 
+                <h3>Adrielle <span>Rivera</span></h3>
+                <p>I am a Full Stack Web Developer</p>
+                </div>
+            </section>
+
+
+            <script>
+                let menu = document.querySelector('#menu-bars');
+                let header = document.querySelector('header');
+                
+                menu.onclick = () => {
+                    menu.classList.toggle('fa-times');
+                    header.classList.toggle('active');
+                }
+
+            </script>
+    </body>
+    </html>
