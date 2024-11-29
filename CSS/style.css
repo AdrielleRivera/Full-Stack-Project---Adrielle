@@ -8,12 +8,13 @@
     outline: none;
     border: none;
     text-decoration: none ;
-    text-transform: capitalize;
+    text-transform: Capitalize;
     transition: all .2s linear;
 }
 :root{
     --green:#27ae60;
     --blue:#0a2df3;
+    --orange:#e96711;
 }
 html {
     font-size: 65.2%;
@@ -55,6 +56,29 @@ header .navbar a{
 header .navbar a:hover{
     color:var(--green);
 }
+
+section{
+    padding: 2rem 9%;
+}
+.home{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.home .content{
+    text-align: center;
+    position:relative;
+    z-index: 1; 
+}
+.home .content img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border:1rem solid var(--orange);
+}
+
 #menu-bars{
     position: fixed;
     z-index: 2000;
@@ -63,7 +87,7 @@ header .navbar a:hover{
     padding: 1rem 1.5rem;
     border-radius:.5rem;
     color:#fff;
-    background: var(--green);
+    background: var(--orange);
     cursor: pointer;
     font-size: 3rem;
     display: none;
@@ -75,20 +99,35 @@ header .navbar a:hover{
     html{
         font-size: 55%;
     }
+
     body{
         padding-right: 0;
     }
+
     header{
         width:100%;
+        left: -120%;
     }
+
+    header.active{
+        left:0%;
+
+    }
+
     #menu-bars{
         display: initial;
     }
     header .navbar {
-writing-mode: horizontal-tb;
+    writing-mode: horizontal-tb;
     }
     header .navbar a{
         display: block;
         font-size: 2rem;
+    }
+}
+
+@media (max-width:450px){
+    html{
+        font-size: 50%;
     }
 }
