@@ -94,6 +94,18 @@ section{
     line-height: 2;
 }
 
+.home .content .btn{
+    background-color:#222;
+    color:#ffff;
+    display:inline-block;
+    margin-top: 2rem;
+    padding: .8rem 3rem;
+    font-size:1.7rem;
+}
+.home .content .btn:hover{
+    background:var(--orange);
+    letter-spacing: .2rem;
+}
 
 #menu-bars{
     position: fixed;
