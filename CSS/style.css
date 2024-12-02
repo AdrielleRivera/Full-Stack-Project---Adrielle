@@ -101,6 +101,8 @@ section{
     margin-top: 2rem;
     padding: .8rem 3rem;
     font-size:1.7rem;
+    line-height: 2;
+    
 }
 .home .content .btn:hover{
     background:var(--orange);
