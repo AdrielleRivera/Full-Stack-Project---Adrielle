@@ -59,6 +59,7 @@ header .navbar a:hover{
 
 section{
     padding: 2rem 9%;
+    min-height: 100vh;
 }
 .home{
     display:flex;
@@ -135,6 +136,17 @@ section{
     cursor: pointer;
     font-size: 3rem;
     display: none;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;    
+    text-transform: uppercase;
+}
+
+.heading span{
+    text-transform: uppercase;
+    color: var(--orange);
 }
 
 
