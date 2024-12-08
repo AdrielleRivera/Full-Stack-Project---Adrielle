@@ -166,6 +166,46 @@ section{
     box-shadow: 0 .5rem 1rem rgba(1, 1, 1, 1);
 }
 
+.about .row .content{
+    flex: 1 1 55rem;
+    font-size: 2rem;
+}
+.about .row .content h3{
+    color:#222;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+.about .row .content h3 span{
+    text-transform: uppercase;
+    color:var(--orange);
+}
+.about .row .content .info{
+    color:#333;
+    font-size: 2rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+.about .row .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 0;
+    padding: 1rem;
+}
+.about .row .content .box-container .box{
+    flex: 1 1 20rem;
+}
+.about .row .content .box-container .box p{
+    font-size: 2rem;
+    color:#222;
+    padding: .5rem 0;
+    line-height: 2;
+}
+.about .row .content .box-container .box p span{
+    color:var(--orange)
+}
+
+
+
 /*media queries*/
 @media (max-width:991px) {
     html{
