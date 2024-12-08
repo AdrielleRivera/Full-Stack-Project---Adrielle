@@ -189,7 +189,8 @@ section{
     display: flex;
     flex-wrap: wrap;
     gap: 1rem 0;
-    padding: 1rem;
+    padding: 1rem 0;
+    margin-bottom: 4rem;
 }
 .about .row .content .box-container .box{
     flex: 1 1 20rem;
@@ -203,7 +204,9 @@ section{
 .about .row .content .box-container .box p span{
     color:var(--orange)
 }
-
+.about h1{
+    margin-bottom: 5rem ;
+}
 
 
 /*media queries*/
