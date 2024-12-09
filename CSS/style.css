@@ -207,6 +207,39 @@ section{
 .about h1{
     margin-bottom: 5rem ;
 }
+/* Part 2 Rank 5A */
+.services .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    }
+    .services .box-container .box{
+    flex:1 1 30rem;
+    border-radius: .5rem;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem;
+    text-align: center;
+    }
+    .services .box-container .box i{
+    color:var(--orange);
+    font-size: 5rem;
+    padding:1rem 0;
+    }
+    .services .box-container .box h3{
+    color:#222;
+    font-size: 2.5rem;
+    padding-top:1rem;
+    }
+    .services .box-container .box p{
+    color:#333;
+    font-size:1.7rem;
+    padding:1rem 0;
+    line-height: 2;
+    }
+    .services .heading{
+        margin: 3rem;
+    }
 
 
 /*media queries*/
