@@ -240,6 +240,20 @@ section{
     .services .heading{
         margin: 3rem;
     }
+    .services .box-container:hover .box {
+        filter: blur(5px);
+        opacity: 0.5;
+    }
+    
+    .services .box-container .box:hover {
+        filter: none;
+        opacity: 1;
+    }
+    .services .box-container .box:hover {
+        transform: scale(1.1); /* Scales the element to 110% of its original size */
+        transition: transform 0.3s ease; /* Adds smooth animation to the scaling */
+    }
+    
 
 
 /*media queries*/
