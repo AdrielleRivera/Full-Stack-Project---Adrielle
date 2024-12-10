@@ -400,6 +400,7 @@ section{
         .footer span:hover{
             border: .3rem solid black;
             background-color: black;
+            border-radius: .5rem;
         }
         
         /* footer ends here */
