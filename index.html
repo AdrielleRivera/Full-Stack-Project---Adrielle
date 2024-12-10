@@ -215,6 +215,32 @@
     
       <!-- blog section ends -->
 
+      <!-- start of contact -->
+      <section class="contact" id="contact">
+        <h1 class="heading"> contact <span> me </span> </h1>
+        <div class="row">
+            <div class="image">
+                <img class="" src="images/contact-img.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <input type="text" placeholder="subject" class="box">
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    
+      <!-- end of contact -->
+
+      <!-- start of footer -->
+      <div class="footer">	&#169; created by <span><a href="https://www.linkedin.com/in/adrielle-rivera-355ab3290/" target="_blank">Adrielle Rivera</a></span> | all rights
+        reserved! &#8482;</div>
+        
+      <!-- end of footer -->
 
             <!-- Go to cdn.js and copy  the link type.js version .12-->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js">
@@ -233,6 +259,12 @@
                     menu.classList.toggle('fa-times');
                     header.classList.toggle('active');
                 }
+
+                window.onscroll= () => {
+                    menu.classList.remove('fa-times');
+                    header.classList.remove('active');
+                }
+
 
                 // Script code for typing text effect
                 
